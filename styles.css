@@ -21,7 +21,7 @@ h1, h2 {
 }
 header {
     position: relative;
-    width: 850px;
+    width: 848px;
     height: 400px;
     border: 1px solid black;
     color: white;
@@ -31,7 +31,7 @@ header {
 
 #blue_rectangle {
     position: absolute;
-    width: 850px;
+    width: 846px;
     height: 350px;
     margin: 0;
     background-color: rgb(75, 91, 158);
@@ -215,6 +215,10 @@ header img {
     flex-direction: column;
     background: white;
     margin-bottom: 10px;
+}
+.blue_background {
+    /*background: rgb(246, 247, 248);*/
+    background:rgb(240, 242, 250);
 }
 
 #about_page div:nth-last-of-type(1) {
