@@ -14,6 +14,10 @@ main {
 }
 h1, h2 {
     font-family: 'Hind Siliguri', sans-serif;
+
+    text-shadow: 4px 3px 0px black,
+     -10px 7px 4px rgba(206,89,55,0);
+   
 }
 header {
     position: relative;
@@ -159,6 +163,15 @@ header img {
     text-decoration:  underline;
 }
 
+.app span:hover {
+    border-bottom: 1px solid black;
+    margin-bottom: -1px;
+    color: rgb(75, 91, 158);
+    
+
+}
+
+
 .main_content {
     position: relative;
     width: 850px;
@@ -220,6 +233,9 @@ header img {
     height: 80px;
     background-color: rgb(75, 91, 158);
     margin-right: 10px;
+
+    -webkit-box-shadow: 5px 5px 6px -2px #000000; 
+    box-shadow: 5px 5px 6px -2px #000000;
 }
 
 .app {
@@ -241,6 +257,9 @@ header img {
     height: 96px;
     background-color: rgb(75, 91, 158);
     margin: 6px;
+
+    -webkit-box-shadow: 5px 5px 6px -2px #000000; 
+    box-shadow: 5px 5px 6px -2px #000000;
 }
 
 .event {
@@ -256,6 +275,9 @@ header img {
     background-color: rgb(75, 91, 158);
     margin: 6px 0 6px 10px;
     float: left;
+
+     -webkit-box-shadow: 5px 5px 6px -2px #000000; 
+box-shadow: 5px 5px 6px -2px #000000;
 }
 
 .event_description {
@@ -294,6 +316,7 @@ header img {
     height: 180px;
     background-color: rgb(75, 91, 158);
     margin: 7px;
+
 }
 
 .event_like_comment_share {
